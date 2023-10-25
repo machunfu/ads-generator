@@ -1,9 +1,12 @@
 {
-  "name": "ads",
+  "name": "ads-generator",
   "displayName": "ads-generator",
   "description": "根据ads配置表自动生成工程文件插件",
-  "version": "0.0.1",
-  "publisher": "ads fe team",
+  "version": "0.0.2",
+  "publisher": "reyun",
+  "author": {
+    "name": "machunfu"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -28,6 +31,12 @@
       ]
     }
   },
+  "icon": "assets/reyun.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
